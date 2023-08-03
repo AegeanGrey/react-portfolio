@@ -1,8 +1,8 @@
 import React from 'react';
-import './assets/style/App.css';
-import ocean from './assets/video/vecteezy-ocean.mp4';
-import Footer from './Footer';
-import Header from './Header';
+import '../assets/style/App.css';
+import ocean from '../assets/video/vecteezy-ocean.mp4';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function Homepage() {
   return (

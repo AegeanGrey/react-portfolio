@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/style/index.css';
-import Homepage from './Homepage';
+import Homepage from './webpages/Homepage';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(<Homepage />, document.getElementById('root'));

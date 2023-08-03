@@ -47,6 +47,11 @@ header div ul li {
   margin-left: 30px;
 }
 
+p {
+  font-size: 25px;
+  color: whitesmoke;
+}
+
 .footContain {
   width: 100%;
   padding: 70% 0% 0%;
@@ -58,21 +63,27 @@ header div ul li {
   color: black;
 }
 
-footer div ul li {
+footer div a {
   display: inline-block;
   text-decoration: none;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
 }
 
-footer div ul li i {
+footer div a i {
   font-size: 3em;
-  color: whitesmoke;
+  color: rgba(138, 156, 168, 0.5);
+  transition: 2s;
 }
 
-p {
-  text-decoration: none;
-  font-size: 25px;
+footer div a i:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+h6 {
+  font-size: large;
+  font-weight: 100;
   color: whitesmoke;
 }
 
