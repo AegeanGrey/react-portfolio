@@ -4,12 +4,12 @@ function Header() {
   return (
     <header>
       <h1>Todd Dharni</h1>
-        <div>
+        <div className='headerContent'>
             <ul>
-              <li><h2>About</h2></li>
-              <li><h2>Portfolio</h2></li>
-              <li><h2>Contact</h2></li>
-              <li><h2>Github</h2></li>
+              <li><p>About Me</p></li>
+              <li><p>Portfolio</p></li>
+              <li><p>Resume</p></li>
+              <li><p>Contact</p></li>
             </ul>
         </div>
     </header>
