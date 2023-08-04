@@ -45,11 +45,19 @@ header div ul li {
   margin-top: 5%;
   display: inline-block;
   margin-left: 30px;
+  font-size: 25px;
+  list-style: none;
 }
 
-p {
-  font-size: 25px;
-  color: whitesmoke;
+.link {
+  text-decoration: none;
+  color: rgba(188, 213, 231, 0.63);
+  transition: 2s;
+}
+
+.link:hover {
+  color: white;
+  transition: 0.3s;
 }
 
 .footContain {
