@@ -2,7 +2,6 @@ import React from 'react';
 import './assets/style/App.css';
 import ocean from './assets/video/vecteezy-ocean.mp4';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './webpages/Home';
 import About from './webpages/About';
 import Portfolio from './webpages/Portfolio';
 import Resume from './webpages/Resume';
@@ -15,9 +14,8 @@ function App() {
       <video src={ocean} autoPlay loop muted />
       <BrowserRouter>
         <Routes>
-          {/* Home is registered as the default page on load */}
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          {/* About/About Me is registered as the default page on load */}
+          <Route index element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
