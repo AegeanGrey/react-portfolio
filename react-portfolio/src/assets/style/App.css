@@ -98,6 +98,53 @@ p {
   max-width: 40%;
 }
 
+article {
+  contain: content;
+}
+
+article img {
+  display: block;
+  max-width: 150px;
+  min-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.portfolio {
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 400px;
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: rgba(136, 162, 180, 0.5);
+}
+
+article p {
+  position: right;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
 .footContain {
   width: 100%;
   padding: 0% 0% 0%;
