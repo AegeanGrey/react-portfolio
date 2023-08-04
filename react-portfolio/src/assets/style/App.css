@@ -24,6 +24,7 @@
 
 header {
   padding: 15px;
+  padding-bottom: 5%;
   contain: content;
 }
 
@@ -60,9 +61,46 @@ header div ul li {
   transition: 0.3s;
 }
 
+section {
+  contain: content;
+  margin: 20px;
+}
+
+.border {
+  display: inline-block;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(136, 162, 180, 0.5);
+}
+
+.card-header {
+  position: absolute;
+  margin-left: 42%;
+  margin-right: 2%;
+}
+
+h3 {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+.border img {
+  display: block;
+  max-width: 40%;
+}
+
 .footContain {
   width: 100%;
-  padding: 70% 0% 0%;
+  padding: 0% 0% 0%;
 }
 
 .Icons {
