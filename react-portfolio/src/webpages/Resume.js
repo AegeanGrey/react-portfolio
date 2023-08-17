@@ -35,12 +35,28 @@ function Resume() {
       <section className='Card'>
         <div className='CardContent'>
         <div className='CardTitle'>
-          <h4>Libraries & Frameworks</h4>
+          <h4>Libraries</h4>
         </div>
         <div className='CardList'>
           <ul>
             <li>jQuery</li>
             <li>React.js</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        </div>
+      </section>
+
+      <section className='Card'>
+        <div className='CardContent'>
+        <div className='CardTitle'>
+          <h4>Frameworks</h4>
+        </div>
+        <div className='CardList'>
+          <ul>
+            <li></li>
+            <li>Jest</li>
             <li>Bootstrap</li>
             <li>Express.js</li>
           </ul>
@@ -72,6 +88,7 @@ function Resume() {
           <ul>
             <li>DRY</li>
             <li>Agile</li>
+            <li>Test-Driven Development</li>
             <li>Object-Oriented Programming</li>
           </ul>
         </div>

@@ -156,6 +156,7 @@ ul li {
 }
 
 form {
+  contain: content;
   display: flex;
   flex-direction: column;
   padding: 1% 2% 2% 2%;
@@ -178,9 +179,14 @@ h2 {
   color: whitesmoke;
 }
 
-form input, form textarea {
+input {
+  width: 97%;
+}
+
+input, form textarea {
   border: 0;
   margin: 10px 0;
+  border-radius: 5px;
   padding: 10px;
   font-size: 16px;
 }
