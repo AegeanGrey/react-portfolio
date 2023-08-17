@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div>
       <Header />
-      <h3>Contact</h3>
+      <h3 class='Portfolio-Title'>Contact</h3>
       <Footer />
     </div>
   )

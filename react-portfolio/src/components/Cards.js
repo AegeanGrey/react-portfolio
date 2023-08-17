@@ -16,11 +16,35 @@ import password from '../assets/images/password-generator.png';
 import readme from '../assets/images/document-info.png';
 import cat from '../assets/images/bowtie-cat.png';
 import lead from '../assets/images/lead-generation.png';
+import ghost from '../assets/images/ghostbusters.jpg';
 
 function MediaCard() {
   return(
     <Grid margin={2} marginLeft={14} marginRight={14}>
-    <Stack spacing={4}  direction={'row'}>
+    <Stack spacing={4} direction={'row'}>
+
+      {/* Ghostbusters Card */}
+      <Grid>
+      <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
+        <CardMedia 
+          sx={{ height: 194 }}
+          image={ghost}
+          title='A black background with white ghost that has a red stop symbol he is trying to get through'
+        />
+        <CardContent>
+          <Typography gutterBottom variant='h5' component='div'>
+            Ghostbusters Website
+          </Typography>
+          <Typography gutterBottom variant='h5' color='text.secondary'>
+            A collaborative nostalgia-fueled experience for locating and pinning ghosts sightings
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="large" href="http://triskaidekaphobia-48aedc7fe5ca.herokuapp.com" rel='noopener noreferrer' target="_blank">Application</Button>
+          <Button size="large" href="https://github.com/ashtreid/ghostbusters" rel='noopener noreferrer' target="_blank">Github Repository</Button>
+        </CardActions>
+      </Card>
+      </Grid>
 
       {/* Project United Card */}
       <Grid paddingBottom={10}>
@@ -41,29 +65,6 @@ function MediaCard() {
         <CardActions>
           <Button size="large" href="https://project-united.herokuapp.com" rel='noopener noreferrer' target="_blank">Application</Button>
           <Button size="large" href="https://github.com/Childofrainydays/project-united" rel='noopener noreferrer' target="_blank">Github Repository</Button>
-        </CardActions>
-      </Card>
-      </Grid>
-
-      {/* Note Taker Card */}
-      <Grid>
-      <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
-        <CardMedia 
-          sx={{ height: 194 }}
-          image={notes}
-          title='A blue background with white font of text that says Note Taker'
-        />
-        <CardContent>
-          <Typography gutterBottom variant='h5' component='div'>
-            Note Taker
-          </Typography>
-          <Typography gutterBottom variant='h5' color='text.secondary'>
-            An all in one place to write, save and retrieve your notes via JavaScript, JSON, and HTTP Requests
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="large" href="https://noteynotes-a2993dbf9bbe.herokuapp.com" rel='noopener noreferrer' target="_blank">Application</Button>
-          <Button size="large" href="https://github.com/AegeanGrey/note-taker" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
       </Grid>
@@ -116,6 +117,30 @@ function MediaCard() {
     </Stack>
 
     <Stack spacing={3} direction={'row'}>
+
+      {/* Note Taker Card */}
+      <Grid>
+      <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
+        <CardMedia 
+          sx={{ height: 194 }}
+          image={notes}
+          title='A blue background with white font of text that says Note Taker'
+        />
+        <CardContent>
+          <Typography gutterBottom variant='h5' component='div'>
+            Note Taker
+          </Typography>
+          <Typography gutterBottom variant='h5' color='text.secondary'>
+            An all in one place to write, save and retrieve your notes via JavaScript, JSON, and HTTP Requests
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="large" href="https://noteynotes-a2993dbf9bbe.herokuapp.com" rel='noopener noreferrer' target="_blank">Application</Button>
+          <Button size="large" href="https://github.com/AegeanGrey/note-taker" rel='noopener noreferrer' target="_blank">Github Repository</Button>
+        </CardActions>
+      </Card>
+      </Grid>
+
       {/* README Card */}
       <Grid>
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
