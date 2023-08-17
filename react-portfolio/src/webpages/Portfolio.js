@@ -8,6 +8,9 @@ function Portfolio() {
   return (
     <div>
       <Header />
+      <div className='portfolioTitle'>
+        <h3>Portfolio</h3>
+      </div>
       <MediaCard />
       <Footer />
     </div>
