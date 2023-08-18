@@ -7,7 +7,7 @@ import UserInput from '../components/Form';
 function Contact() {
 
   const [values, setValues] = useState({
-    username: '',
+    name: '',
     email: '',
   })
 
@@ -15,17 +15,21 @@ function Contact() {
   const inputs = [
     {
         id: 1,
-        name: 'username',
+        name: 'name',
         type: 'text', 
         placeholder: 'John Doe',
-        label: 'Username:'
+        label: 'Name:',
+        required: true,
+        err: 'Please input a valid First and Last name'
     },
     {
         id: 2,
         name: 'email',
         type: 'text', 
         placeholder: 'username@service.com',
-        label: 'Email:'
+        label: 'Email:',
+        required: true,
+        err: 'Please input a valid Email Address'
     }
   ];
 
@@ -54,7 +58,7 @@ function Contact() {
         ))}
 
         <h2>Message:</h2>
-        <textarea rows='6' placeholder='How can I help you?'/>
+        <textarea rows='6' placeholder='How can I help you?' required/>
         <button type='submit'>Submit</button>
       </form>
     </div>
