@@ -183,6 +183,8 @@ h2 {
 
 input {
   width: 97%;
+  max-width: 97%;
+  min-width: 30%;
 }
 
 input, form textarea {
