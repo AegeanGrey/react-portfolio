@@ -122,6 +122,7 @@ ul li {
 .FlexCard {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -129,6 +130,7 @@ ul li {
 .Card {
   flex: 1;
   max-width: 16%;
+  min-width: 200px;
   margin: 10px 10px 10px 10px;
   border-width: 1px;
   border-radius: 10px;
@@ -189,6 +191,14 @@ input, form textarea {
   border-radius: 5px;
   padding: 10px;
   font-size: 16px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  color: rgb(255, 63, 63);
+  display: none;
 }
 
 form button {
