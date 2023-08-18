@@ -46,5 +46,6 @@
     "devDependencies": {
       "gh-pages": "^6.0.0",
       "ghpages": "^0.0.10"
-    }
+    },
+    "homepage": "https://AegeanGrey.github.io/react-portfolio"
   }
