@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="Homepage">
       <video src={ocean} autoPlay loop muted />
-      <BrowserRouter>
+      <BrowserRouter basename={window.location.pathname || ''}>
         <Routes>
           {/* About/About Me is registered as the default page on load */}
           <Route index element={<About />} />
